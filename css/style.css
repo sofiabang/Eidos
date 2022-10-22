@@ -52,6 +52,7 @@ p {
 body {
     background-color: #F2F1F0;
     width: 100%;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 header {
@@ -229,8 +230,16 @@ header ul {
     margin-left: 64px;
 }
 
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+
 .image-gallery {
     width: 10rem;
+}
+
+.image-gallery:hover {
+    opacity: 0.5;
 }
 
 footer {
