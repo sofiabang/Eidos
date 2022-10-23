@@ -219,6 +219,15 @@ header ul {
     width: 82%;
 }
 
+.title-gallery {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    margin-bottom: 4%;
+    width: 14%;
+}
+
 .gallery {
     display: flex;
     flex-direction: row;
